@@ -67,13 +67,14 @@ body{/*seletor de tag*/
     padding-left: 38px; /*espaçamento dentro na parte de esquerda*/
     padding-right: 38px; /*espaçamento dentro na parte de direita*/
     padding-bottom: 38px; /*espaçamento dentro na parte de baixo*/
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.5);
 }
 
 .titulo{/*seletor de classe*/
     font-size: 32px;
     margin-top:14px; /*espaçamento fora na parte de cima*/
     margin-bottom:12px; /*espaçamento fora na parte de baixo*/
-    font-weight: bold; /*deixa a fonte em negrito*/
+    font-weight: bold; /*muda o peso da fonte*/
 }
 
 .texto{
@@ -85,3 +86,54 @@ body{/*seletor de tag*/
     margin-top:32px;
     text-align: left;
 }
+.rotulo{
+    font-weight: bold;
+    font-size: 16px;
+    display: block;
+    margin-bottom: 8px;
+}
+.campo-texto{
+    width: 100%;
+    font-size: 16px;
+    color:#434343;
+    padding:7px 13px;
+    margin-bottom: 16px;
+    border:1px solid #CED4DA;
+    border-radius:4px;
+    box-sizing: border-box;
+}
+    .botao-reservar{
+        width: 100%;
+        background-color: #FFC107;
+        color:white;
+        line-height: 150%;
+        padding-top: 6px;
+        padding-bottom: 6px;
+        border:none;
+        font-weight: bold;
+        text-transform:uppercase; /* transforma o texto em maiusculo*/
+        font-size: 16px;
+        margin-top: 16px;
+    }
+    #col2{
+        width: 800px;
+        margin-left: 39px;
+    }
+    .oferta{
+        font-size: 36px;
+        font-weight: bold;
+        color: white;
+    }
+    .destaque{
+       color: #445EE5;
+    }
+    .texto-oferta{
+        font-size: 18px;
+        margin-top: 10px;
+    }
+    .tudo{
+        display: flex;
+        align-items: center;/*vertical*/
+        justify-content: space-around;/*horizontal*/
+        height: 100vh; /*vh = viewporterate*/
+    }
