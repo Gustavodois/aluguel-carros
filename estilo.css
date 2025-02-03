@@ -55,8 +55,8 @@ seletor{
 */
 
 body{/*seletor de tag*/
-    background-color: #FFC107; /*muda a cor do fundo*/
-    font-family:Arial; /*muda a fonte da letra*/
+    background-color: #C4D9FF; /*muda a cor do fundo*/
+    font-family:Georgia; /*muda a fonte da letra*/
 }
 
 #col1{/*seletor de id*/
@@ -98,13 +98,13 @@ body{/*seletor de tag*/
     color:#434343;
     padding:7px 13px;
     margin-bottom: 16px;
-    border:1px solid #CED4DA;
+    border: 2px  solid #E8F9FF;
     border-radius:4px;
     box-sizing: border-box;
 }
     .botao-reservar{
         width: 100%;
-        background-color: #FFC107;
+        background-color: #C4D9FF;
         color:white;
         line-height: 150%;
         padding-top: 6px;
@@ -120,6 +120,7 @@ body{/*seletor de tag*/
         margin-left: 39px;
     }
     .oferta{
+        font-family: Arial;
         font-size: 36px;
         font-weight: bold;
         color: white;
@@ -128,6 +129,7 @@ body{/*seletor de tag*/
        color: #445EE5;
     }
     .texto-oferta{
+        font-family: Arial;
         font-size: 18px;
         margin-top: 10px;
     }
